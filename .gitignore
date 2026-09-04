@@ -1,0 +1,20 @@
+# Python stuff
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac stuff
+.DS_Store
+
+# Project specific stuff
+.udacity-pa/
+rubric.md
+project_intro.md
+original_readme.md
+*.zip
+plan.*
+
+# Environments
+.env
