@@ -13,6 +13,8 @@ __pycache__/
 rubric.md
 project_intro.md
 original_readme.md
+cheat_sheet_classical_planning.md
+cheat_sheet_symbolic_logic.md
 *.zip
 plan.*
 
