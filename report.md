@@ -116,7 +116,8 @@ For planning the UPS delivery routes I would use Greedy + unmet_goals. It perfor
 
 ### Which algorithm or algorithms would be most appropriate for planning problems where it is important to find only optimal plans?
 
-For finding the optimal plan I would use either BFS or A* + unmet_goals as they found the short plan on all four problems (P1, P2, P3, and P4).
+For finding the optimal plan I would use BFS (found optimal plans 6, 9, 12, 14) and UCS (found optimal plans 6, 9). Both do not use heuristics. For the algorithms with heuristics I would use A* + maxlevel and A* + setlevel. The maxlevel and setlevel heuristics are admissible so A* is guaranteed to find the optimal plan.
+
 
 
 
