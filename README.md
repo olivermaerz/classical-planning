@@ -1,7 +1,5 @@
 Udacity _Classical Planning_ project: a progression-search planner with planning-graph mutexes and heuristics, used to solve air cargo problems and compare search algorithms.
 
-I also included two AI-generated cheat sheets on [Classical Planning](cheat_sheet_classical_planning.md) and [Symbolic Logic](cheat_sheet_symbolic_logic.md) in case you need a refresher on these topics.
-
 Setup with [uv](https://docs.astral.sh/uv/): `uv venv --python 3.9 venv && source venv/bin/activate`
 
 You can compare search algorithms on the air cargo problems with `python run_search.py -m`, or pick them with `-p` (problems 1–4) and `-s` (search algorithms). For example, `python run_search.py -p 1 2 -s 1 2` runs problems 1 and 2 with breadth-first and depth-first search.
